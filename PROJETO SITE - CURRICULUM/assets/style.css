@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.content_img{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 1920px;
+    height: 700px;
+    object-fit: cover;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.img_profile {
+    margin-top: -300px;
+    width: 600px;
+    height: 600px;
+    border: 5px solid #FFF;
+    border-radius: 300px;
+    background-image: url(../images/profile.jpg);
+    background-size: 100%;
+}
